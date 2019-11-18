@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UTS101</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+	<string-array name="menus">
+	        <item >Profil</item>
+	        <item >Mini Question</item>
+	        <item >Match Question</item>
+	        <item >Exit</item>
+	    </string-array>
+	<string-array name="math_quest">
+	    	<item >Matematika Dasar</item>
+	    	<item >Bangun Datar</item>
+	    	<item >Barisan dan Deret</item>
+	</string-array>
+	 
+	    <string name="drawer_open">Open Drawer</string>
+	    <string name="drawer_close">Close Drawer</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:name="@+id/tvminq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Apakah ban kereta api tidak menggunakan bahan karet?"/>
+    
+    <EditText 
+        android:id="@+id/etminq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvminq1"/>
+    
+    <Button
+        android:id="@+id/btnminq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" 
+        android:layout_below="@+id/etminq1"/>
+    
+    <TextView
+        android:id="@+id/tvminq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnminq1"
+        android:text="2. Apakah Unpri satu-satunya Universitas di Medan?" />
+    
+     <EditText 
+        android:id="@+id/etminq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvminq2"/>
+     
+     <Button
+        android:id="@+id/btnminq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" 
+        android:layout_below="@+id/etminq2"/>
+    
+    <TextView
+        android:id="@+id/tvminq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnminq2"
+        android:text="3. Apakah semua mobil menggunakan bahan bakar bensin?" />
+    
+     <EditText 
+        android:id="@+id/etminq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvminq3"/>
+     
+     <Button
+        android:id="@+id/btnminq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" 
+        android:layout_below="@+id/etminq3"/>
+
+</LinearLayout>
